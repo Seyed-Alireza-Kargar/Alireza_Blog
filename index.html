@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Blog with Comments</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Welcome to Alireza Blog</h1>
+      </header>
+
+      <article>
+        <h2>A Wonderful Day</h2>
+        <p>
+          Yesterday was a great day. In the morning, I went to work and
+          completed all my tasks. I felt really productive. After work, in the
+          evening, I went out with my friends. We walked around the city and
+          enjoyed the cool evening breeze. Later, we decided to go to a
+          restaurant, where we had a delicious dinner together. It was a perfect
+          end to a busy but fun day!
+        </p>
+        <p id="post-date"></p>
+      </article>
+
+      <section id="comments-section">
+        <h3>Comments</h3>
+        <ul id="comments-list"></ul>
+        <input id="name-input" type="text" placeholder="Your name" />
+        <textarea
+          id="comment-input"
+          placeholder="Write your comment here..."
+        ></textarea>
+        <button id="submit-comment">Post Comment</button>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

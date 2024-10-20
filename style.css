@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #comments-section {
+    margin-top: 40px;
+  }
+  
+  #comments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #comments-list li {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #name-input, #comment-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  #comment-input {
+    height: 60px;
+  }
+  
+  #submit-comment {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit-comment:hover {
+    background-color: #555;
+  }
+  
